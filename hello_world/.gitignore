@@ -1,0 +1,30 @@
+# Ignore compiled binaries and build artifacts
+/target/
+
+# Ignore Cargo.lock file
+Cargo.lock
+
+# Ignore debug and release directories
+/target/debug/
+/target/release/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore temporary and backup files
+*.swp
+*~
+*.orig
+
+# Ignore generated documentation
+/doc/
+
+# Ignore environment-specific files
+.env
+
+# Exclude system files
+.DS_Store
+Thumbs.db
